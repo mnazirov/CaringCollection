@@ -16,7 +16,7 @@ final class ViewController: UIViewController {
         )
         flowLayout.scrollDirection = .horizontal
         flowLayout.minimumInteritemSpacing = 3.0
-        flowLayout.sectionInset = .init(top: 40, left: 16, bottom: 40, right: 16)
+        flowLayout.sectionInset = .init(top: 30, left: 16, bottom: 16, right: 16)
         return flowLayout
     }()
     
